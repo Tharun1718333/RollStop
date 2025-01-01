@@ -1,9 +1,12 @@
-package com.example.spring_boot.model;
+package com.example.spring_boot.Services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.spring_boot.Models.aspnetuser;
+import com.example.spring_boot.Repository.UserRepository;
 
 @Service
 public class UserService {

@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.example.spring_boot.model.UserService;
-import com.example.spring_boot.model.aspnetuser;
+import com.example.spring_boot.Models.aspnetuser;
+import com.example.spring_boot.Services.UserService;
 
 @RestController
 @RequestMapping("/api/users")

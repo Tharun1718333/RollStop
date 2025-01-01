@@ -10,7 +10,7 @@ import org.springframework.lang.NonNull;
 public class corspolicy {
 
     @Bean
-    public WebMvcConfigurer corsConfigurer() {
+    WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
